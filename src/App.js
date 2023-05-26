@@ -2,6 +2,7 @@ import './App.css';
 import { AboutMe } from './components/AboutMe';
 import { ContactDetails } from './components/ContactDetails';
 import { Education } from './components/Education';
+import { Me } from './components/Me';
 import { Proyects } from './components/Proyects';
 import { Skills } from './components/Skills';
 import { SocialMedia } from './components/SocialMedia';
@@ -25,7 +26,7 @@ function App() {
         </div>
         <div className='Container_Right'>
           <div>
-            <p>Curiculum</p>
+            <Me/>
             <hr/>
             <Education/>
             <hr/>

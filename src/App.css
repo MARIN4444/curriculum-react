@@ -8,9 +8,21 @@
   text-decoration-line: underline;
 
 }
+.me{
+  display: flex;
+  gap: 5%;
+}
+.me_tittle{
+  padding-top: 110px;
+}
+.me_img{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
 .Contact_text--tittle{
-  margin-top: 13px;
   text-decoration-line: underline;
+  color: rgb(206, 248, 248);
 }
 .Container{
   display: grid;

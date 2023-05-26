@@ -3,6 +3,7 @@ import instagram from './instagram.png'
 import linkedin from './linkedin.png'
 import education from './Education.png'
 import proyects from './Proyects.png'
+import me from './me.jpg'
 
 
 export default{
@@ -10,5 +11,6 @@ export default{
     'instagram': instagram,
     'linkedin': linkedin,
     'education': education,
-    'proyects': proyects
+    'proyects': proyects,
+    'me': me
 }
