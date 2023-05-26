@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Formulario Contacto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Jhonatan Marin Salazar
 
-## Available Scripts
+``` html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='author' content='Manuela Velásquez - Jhonatan Marín'>
+      <meta name='keywords' content='curriculum, react, html, css, javascript'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Formulario de contacto</title>
+</head>
+<body>
 
-In the project directory, you can run:
+    <div>
+        <h2>Envie su formulario</h2>
+        <form action="https://formsubmit.co/gohan44marin@gmail.com" method="POST" >
+            <label for="Nombre">Nombre: </label>
+            <input type="text" name="name">
 
-### `npm start`
+            <label for="Nombre">Correo Electronico: </label>
+            <input type="text" name="email">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+            <label for="Nombre">Asunto: </label>
+            <input type="text" name="subject">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+            <label for="Nombre">Comentario: </label>
+            <textarea name="comments" cols="15" rows="5"></textarea>
 
-### `npm test`
+            <input type="submit" name="Enviar">
+        </form>
+    </div>
+    
+</body>
+</html>
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Bibliografia
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
++ [video botones sociales dinamicos ](https://www.youtube.com/watch?v=tNIdDL2R7HU)
+    + video con el cual se aprendio a hacer algunos botones animado cuando pasa el mouse por encima
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
++ [componentes de bootstrap](https://getbootstrap.com/docs/5.3/components/progress/)
+    + Uno de los componentes usado desde bootstrap fue el progress para hacer barras animadas 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
++ [buscar los iconos png](https://www.pngwing.com/es)
+    + Esta pagina fue de ayuda para encontrar algunos iconos en formato png y de una buena calidad
 
-### `npm run eject`
++ [video repaso react](https://www.youtube.com/watch?v=wGxDfSWC4Ww)
+    + video con el cual se afianzo mas el conocimiento de react y sobre la implementacion de componentes
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
++ [Pagina con recursos de desarrollo](https://developer.mozilla.org/es/)
+    + esta pagina fue de gran ayuda para buscar algunas etiquetas o codigo css 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
++ [video sobre subida de imagenes](https://www.youtube.com/watch?v=A5yjN73Aj7s)
+    + este video fue utilizado para saber como subir las imagenes en react
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
