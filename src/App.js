@@ -31,6 +31,7 @@ function App() {
             <Education/>
             <hr/>
             <Proyects/>
+            <hr/>
             <FormContact/>
           </div>
         </div>       

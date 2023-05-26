@@ -3,8 +3,7 @@ import React from 'react'
 export const FormContact = () => {
   return (
     <div>
-
-        <h2>Envie su formulario</h2>
+        <h4>Envie su formulario</h4>
         <form action="https://formsubmit.co/gohan44marin@gmail.com" method="POST" >
             <label className='Form_label' for="Nombre"><b>Nombre: </b></label>
             <input className='Form_input' type="text" name="name"></input>
