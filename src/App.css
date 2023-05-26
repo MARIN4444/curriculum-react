@@ -9,7 +9,7 @@
 
 }
 .Contact_text--tittle{
-  color: rgb(206, 248, 248);
+  margin-top: 13px;
   text-decoration-line: underline;
 }
 .Container{
@@ -33,13 +33,13 @@
   bottom:0px;
   height: auto;
 }
-ul.botones {
+ul.SocialMedia_botones {
   list-style: none;
   margin-left: 16%;
 
 }
 
-ul.botones li{
+ul.SocialMedia_botones li{
   display: inline;
 }
 
