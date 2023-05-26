@@ -10,7 +10,6 @@ export const Education = () => {
         <h4 className='education_tittle--position'>Education</h4>
       </div>
       <br/>
-      <br/>
       <div >
         <h5>Escuela Normal Superior De Caldas</h5>
         <div className='education_text'>
@@ -26,7 +25,6 @@ export const Education = () => {
           <p className='education_text--text'>Sexto semestre en Ingenieria de Sistemas y Telecomunicaciones</p>
         </div>
       </div>
-      <br/>
     </div>
     
   )
