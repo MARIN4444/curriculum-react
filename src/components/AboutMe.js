@@ -7,7 +7,7 @@ export const AboutMe = () => {
             <img src='' className='AboutMe_img' alt=''></img>
             <div className='AboutMe_text'>
                 <h3 className='AboutMe_text_tittle'>About Me</h3>
-                <p className='AbourMe_tect_body'>Soy un desarrollador de software con una gran habilidad de adaptacion, con muchos animos de aprender nuevas cosas para implementarlas en futuros proyectos</p>
+                <p className='AbourMe_tect_body'>I am a software developer with a great ability to adapt, eager to learn new things to implement them in future projects.</p>
             </div>
         </div>
     </div>

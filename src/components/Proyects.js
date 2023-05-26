@@ -13,8 +13,8 @@ export const Proyects = () => {
         <div className='proyects_text'>
           <a className='proyects_text--link' href=''><b>Curriculum-React</b></a>
           <br/>
-          <p className='education_text--text'>proyecto donde se realiza una Single Page Application con la información básica de mi curriculum 
-          utilizando como framework 'bootstrap', <br/>implemantando lenguajes para paginas web (html, css. javascript) con react (jsx) y aplicando una metodologia bem para css y </p>
+          <p className='education_text--text'>project where a Single Page Application is made with the basic information of my curriculum
+          using 'bootstrap' as framework, <br/>implementing languages ​​for web pages (html, css. javascript) with react (jsx) and applying a bem methodology for css</p>
         </div>
       </div>
         
