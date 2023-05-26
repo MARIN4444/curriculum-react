@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+.App{
+  background-color: rgb(226, 220, 226);
+  height: 100vh;
+
+}
+.AboutMe_text_tittle{
+  color: rgb(206, 248, 248);
+  text-decoration-line: underline;
+
+}
+.Contact_text--tittle{
+  color: rgb(206, 248, 248);
+  text-decoration-line: underline;
+}
+.Container{
+  display: grid;
+  grid-template-columns: 32% 64%;
+  gap: 4%;
+}
+.Container_Left{
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(68, 198, 183);
+  height: 100vh;
+}
+.btn_social{
+  height: 2rem;
+  margin: .8rem;
+}
+.SocialMedia{
+  right: 5%;
+  width: auto;
+  bottom:0px;
+  height: auto;
+}
+ul.botones {
+  list-style: none;
+  margin-left: 16%;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul.botones li{
+  display: inline;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn_social:hover{
+  transform: scale(1.5);
+  transition: 0.6s all;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+*{
+  font-size: 18px;
+}
+h4{
+  color:rgb(0, 0, 0);
+}
+h5.skill_bar{
+  color:rgb(216, 223, 223);
+}
+.skill_tittle{
+  text-decoration-line: underline;
+  color: rgb(206, 248, 248);
+}
+.img_right{
+  height: 60px;
+  width: 60px;
+}
+
+.education{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 3%;
 }
 
-.App-link {
-  color: #61dafb;
+.proyects{
+  display: flex;
+  gap:3%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.education_tittle--position{
+  margin-top: 13px;
+  text-decoration-line: underline;
+}
+.proyects_tittle_position{
+  margin-top: 13px;
+  text-decoration-line: underline;
+}
+.education_text--year{
+  opacity: 55%;
+}
+.education_text{
+  display:flex;
+  gap:3%;
 }
